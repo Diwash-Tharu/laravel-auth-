@@ -1,8 +1,8 @@
 <?php
 namespace App\Repositories;
 use App\Models\Post;
-
-class PostRepo implements PosiInterface
+// app/Repositories/PosiIntferface.php
+class PostRepo implements PosiIntferface
 {
     public function __construct(Private Post $model)
     {

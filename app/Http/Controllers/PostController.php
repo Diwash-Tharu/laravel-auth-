@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Repositories\PosiInterface;
+use App\Repositories\PosiIntferface;
 use Illuminate\Http\Request;
 
 
 class PostController extends Controller
 {
     //
-    public function __construct(public PosiInterface $postRepo)
+    public function __construct(public PosiIntferface $postRepo)
     {
         
     }
